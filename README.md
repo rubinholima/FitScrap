@@ -15,5 +15,5 @@
  
 NyTimes News Scrapper is a simple , easily navigatable site that allows user to scrape current news article from nytimes.com. The site uses cheerio to scrame news and then store the data in mongoDb. Users can save , leave notes and delete articles based on their preference. 
 
-* To view a live version of the site please visit:
+* To view a live version of the site please visit: https://secret-lake-01953.herokuapp.com/
 
