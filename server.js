@@ -40,8 +40,6 @@ app.get("/newscrape", function (req, res) {
             var link = "https://www.nytimes.com";
             link = link + $(element).parents("a").attr("href");
             var summaryOne = $(element).parent().parent().siblings().text();
-            //var summaryTwo = $(element).parent().parent().siblings().text();
-
             if (headline && summaryOne && link) {
                 results.push({
                     headline: headline,
